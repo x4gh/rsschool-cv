@@ -24,6 +24,18 @@ My goal is to develop products that solve real user problems and deliver a seaml
 
 ---
 
+## Code example
+**Task:** Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+
+**Code:**
+
+```javascript
+function evenOrOdd(number) {
+  return number % 2 === 0 ? "Even" : "Odd";
+}
+```
+
+---
 ## Education
 - Maikop State Technological University
 
