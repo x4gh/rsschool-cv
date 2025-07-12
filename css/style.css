@@ -87,21 +87,25 @@ h6 {
     font-weight: 400;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
 .container {
     border-radius: 30px;
     display: flex;
-    margin: 20px auto;
+    margin: 20px auto 0;
     width: 1200px;
     height: 1100px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+
     color: #494d4e;
     box-shadow: 10px 10px 40px -1px rgba(147, 45, 45, 0.23);
 }
 
 .aside {
     width: 400px;
-    height: 600px;
+    height: 543px;
 
 }
 
@@ -118,7 +122,7 @@ h6 {
 
 .title {
     margin: 0 auto;
-    padding-top: 15px;
+    padding-top: 25px;
     text-align: center;
     font-size: 30px;
     font-weight: 700;
@@ -128,6 +132,8 @@ h6 {
 }
 
 .subtitle {
+    padding-top: 15px;
+    padding-bottom: 30px;
     display: block;
     text-align: center;
     font-size: 22px;
@@ -211,7 +217,7 @@ pre {
     margin-top: 70px;
 }
 
-.languages{
+.languages {
     margin-top: 70px;
 }
 
@@ -251,4 +257,18 @@ pre {
     color: #494d4e;
     text-transform: uppercase;
     letter-spacing: 1.2px;
+}
+
+.footer {
+    display: flex;
+    padding: 0 250px;
+    width: 1200px;
+    margin: 0 auto;
+    height: 50px;
+    background-color: #494d4e;
+    border-radius: 30px;
+    align-items: center;
+    color: #FFF;
+    justify-content: space-between;
+    box-shadow: 10px 10px 40px -1px rgba(147, 45, 45, 0.23);
 }
