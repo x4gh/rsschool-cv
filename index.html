@@ -19,22 +19,26 @@
                 </div>
                 <div class="aside__info">
                     <div class="aside__block">
-                        <h2 class="block__title">contacts</h2>
+                        <h2 class="block__title" id="contacts">contacts</h2>
                         <ul class="aside__list">
-                            <li class="aside__item">Brest, Belarus</li>
-                            <li class="aside__item">x4gh</li>
-                            <li class="aside__item">x4osep</li>
-                            <li class="aside__item">x4osep@gmail.com</li>
+                            <li class="aside__item"><img src="./img/grey-map.svg" class="svg" alt="map" width="24">Brest, Belarus</li>
+                            <li class="aside__item"><img src="./img/grey-github-logo.svg" class="svg" alt="github" width="24">x4gh</li>
+                            <li class="aside__item"><img src="./img/grey-discord.svg" class="svg" alt="discord" width="24">x4osep</li>
+                            <li class="aside__item"><img src="./img/grey-email.svg" class="svg" alt="email" width="24">x4osep@gmail.com</li>
                         </ul>
                     </div>
                     <div class="aside__block">
-                        <h2 class="block__title skills">skills</h2>
+                        <h2 class="block__title skills" id="skills">skills</h2>
                         <ul class="aside__list">
                             <li class="aside__item">HTML</li>
                             <li class="aside__item">CSS (SCSS)</li>
                             <li class="aside__item">JS (in progress)</li>
                             <li class="aside__item">Git, GitHub</li>
                         </ul>
+                    </div>
+                    <div class="aside__block skills">
+                        <h2 class="block__title">Projects</h2>
+                        <a class="aside__list " href="https://x4gh.github.io/rsschool-cv/cv">RS School CV</a>
                     </div>
                 </div>
             </div>
@@ -43,28 +47,28 @@
                     <nav class="menu">
                         <ul class="menu__list">
                             <li class="menu__item">
-                                <a href="#" class="menu__link">contacts</a>
+                                <a href="#contacts" class="menu__link">contacts</a>
                             </li>
                             <li class="menu__item">
-                                <a href="#" class="menu__link">about me</a>
+                                <a href="#about" class="menu__link">about me</a>
                             </li>
                             <li class="menu__item">
-                                <a href="#" class="menu__link">skills</a>
+                                <a href="#skills" class="menu__link">skills</a>
                             </li>
                             <li class="menu__item">
-                                <a href="#" class="menu__link">code</a>
+                                <a href="#code" class="menu__link">code</a>
                             </li>
                             <li class="menu__item">
-                                <a href="#" class="menu__link">education</a>
+                                <a href="#education" class="menu__link">education</a>
                             </li>
                             <li class="menu__item">
-                                <a href="#" class="menu__link">languages</a>
+                                <a href="#languages" class="menu__link">languages</a>
                             </li>
                         </ul>
                     </nav>
                 </header>
                 <main class="main">
-                    <div class="about">
+                    <div class="about" id="about">
                         <h2 class="main__title">about me</h2>
                         <p class="text">
                             I am an aspiring frontend developer with a strong motivation to learn and a keen eye for
@@ -79,7 +83,7 @@
                             looking for a team where I can grow professionally while contributing to impactful projects.
                         </p>
                     </div>
-                    <div class="code">
+                    <div class="code" id="code">
                         <h2 class="main__title">Code example</h2>
                         <span class="code__task"><b>Task:</b> Create a function that takes an integer as an argument and
                             returns "Even" for even numbers or "Odd" for odd numbers.</span>
@@ -90,14 +94,14 @@
     }</code>
                 </pre>
                     </div>
-                    <div class="education">
+                    <div class="education" id="education">
                         <h2 class="main__title">education</h2>
                         <ul class="education__list">
                             <li class="education__item">Maikop State Technological University</li>
                             <li class="education__item">RS School (in progress)</li>
                         </ul>
                     </div>
-                    <div class="languages">
+                    <div class="languages" id="languages">
                         <h2 class="main__title">languages</h2>
                         <ul>
                             <li>Russin - native</li>

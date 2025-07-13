@@ -93,7 +93,7 @@ body {
 }
 
 .container {
-    border-radius: 30px;
+    border-radius: 200px 30px 30px 30px;
     display: flex;
     margin: 20px auto 0;
     width: 1200px;
@@ -170,17 +170,27 @@ body {
 }
 
 .aside__list {
+    margin-left: 70px;
     width: 100%;
     margin-left: 70px;
     line-height: 1.5;
     font-size: 22px;
+    color: #494d4e;
 
 }
+.aside__item{
 
-.skills {
+}
+.svg{
+vertical-align: middle;
+margin: 0 7px;
+}
+.skills {   
     margin-top: 50px;
 }
-
+.github-icon path {
+  fill: #494d4e;
+}
 .main {
     margin: 70px;
     font-size: 22px;
