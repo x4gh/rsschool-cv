@@ -1,12 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Asepashvili</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    Hello, world!
+    <div class="wrapper">
+        <div class="container">
+            <div class="aside">
+                <div class="aside__card">
+                    <img src="./img/image.png" alt="image" class="aside__image" width="350">
+                    <h1 class="title">Valentina Asepashvili</h1>
+                    <span class="subtitle">Junior Frontend Developer</span>
+                </div>
+                <div class="aside__info">
+                    <div class="aside__block">
+                        <h2 class="block__title" id="contacts">contacts</h2>
+                        <ul class="aside__list">
+                            <li class="aside__item"><img src="./img/grey-map.svg" class="svg" alt="map" width="24">Brest, Belarus</li>
+                            <li class="aside__item"><img src="./img/grey-github-logo.svg" class="svg" alt="github" width="24">x4gh</li>
+                            <li class="aside__item"><img src="./img/grey-discord.svg" class="svg" alt="discord" width="24">x4osep</li>
+                            <li class="aside__item"><img src="./img/grey-email.svg" class="svg" alt="email" width="24">x4osep@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="aside__block">
+                        <h2 class="block__title skills" id="skills">skills</h2>
+                        <ul class="aside__list">
+                            <li class="aside__item"><img src="./img/point.svg" class="svg" alt="point" width="24">HTML</li>
+                            <li class="aside__item"><img src="./img/point.svg" class="svg" alt="point" width="24">CSS (SCSS)</li>
+                            <li class="aside__item"><img src="./img/point.svg" class="svg" alt="point" width="24">JS (in progress)</li>
+                            <li class="aside__item"><img src="./img/point.svg" class="svg" alt="point" width="24">Git, GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="aside__block skills">
+                        <h2 class="block__title">Projects</h2>
+                        <a class="aside__list" target="_blank" href="https://x4gh.github.io/rsschool-cv/cv"><img src="./img/point.svg" class="svg" alt="point" width="24">RS School CV</a>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <header class="header">
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="#contacts" class="menu__link">contacts</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#about" class="menu__link">about me</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#skills" class="menu__link">skills</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#code" class="menu__link">code</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#education" class="menu__link">education</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#languages" class="menu__link">languages</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+                <main class="main">
+                    <div class="about" id="about">
+                        <h2 class="main__title">about me</h2>
+                        <p class="text">
+                            I am an aspiring frontend developer with a strong motivation to learn and a keen eye for
+                            detail.
+                            I strive to build high-quality, responsive, and user-friendly web applications. I quickly
+                            adapt
+                            to new technologies and apply them in practice. For me, clean and maintainable code is just
+                            as
+                            important as an appealing UI. I embrace challenging tasks as opportunities for growth. My
+                            goal
+                            is to develop products that solve real user problems and deliver a seamless experience. I’m
+                            looking for a team where I can grow professionally while contributing to impactful projects.
+                        </p>
+                    </div>
+                    <div class="code" id="code">
+                        <h2 class="main__title">Code example</h2>
+                        <span class="code__task"><b>Task:</b> Create a function that takes an integer as an argument and
+                            returns "Even" for even numbers or "Odd" for odd numbers.</span>
+                        <pre>
+                        <code>
+    function evenOrOdd(number) {
+    return number % 2 === 0 ? "Even" : "Odd";
+    }</code>
+                </pre>
+                    </div>
+                    <div class="education" id="education">
+                        <h2 class="main__title">education</h2>
+                        <ul class="education__list">
+                            <li class="education__item"><img src="./img/point.svg" class="svg" alt="point" width="24">Maikop State Technological University</li>
+                            <li class="education__item"><img src="./img/point.svg" class="svg" alt="point" width="24">RS School (in progress)</li>
+                        </ul>
+                    </div>
+                    <div class="languages" id="languages">
+                        <h2 class="main__title">languages</h2>
+                        <ul>
+                            <li><img src="./img/point.svg" class="svg" alt="point" width="24">Russin - native</li>
+                            <li><img src="./img/point.svg" class="svg" alt="point" width="24">English - B2</li>
+                        </ul>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <footer class="footer">
+            <a href="https://github.com/x4gh">
+                <img src="./img/github.svg" alt="github" width="40"></a>
+            <p>2025</p>
+            <a href="https://app.rs.school/">
+                <img src="./img/rsschool.svg" alt="rsschool" width="100">
+            </a>
+        </footer>
+    </div>
 </body>
-</html>
