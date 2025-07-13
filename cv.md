@@ -3,9 +3,9 @@
 
 **GitHub:** [x4gh](https://github.com/x4gh)
 
-**Discord:** @asepashvili
+**Discord:** @x4osep
 
-**e-mail:** v.asepashvili@gmail.com
+**e-mail:** x4osep@gmail.com
 
 ---
 
